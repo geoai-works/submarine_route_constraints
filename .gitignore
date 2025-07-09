@@ -1,3 +1,6 @@
+# Ignore large input files
+processed_data/*.tif
+
 # Ignore all GPKG intermediate/final files
 processed_data/*.gpkg
 processed_data/constraints/*.gpkg
