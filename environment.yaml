@@ -1,0 +1,26 @@
+
+name: geoai_route_constraints
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - geopandas
+  - rasterio
+  - shapely
+  - fiona
+  - pyproj
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - notebook
+  - scikit-learn
+  - richdem
+  - pygeos
+  - rtree
+  - gdal
+  - ipykernel
+  - pip
+  - pip:
+      - geocube

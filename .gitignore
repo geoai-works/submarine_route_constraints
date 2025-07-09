@@ -1,0 +1,14 @@
+# Ignore all GPKG intermediate/final files
+processed_data/*.gpkg
+processed_data/constraints/*.gpkg
+
+# Ignore Jupyter checkpoints (in any subfolder)
+**/.ipynb_checkpoints/
+
+# Ignore macOS system files
+**/.DS_Store
+
+# QGIS auxiliary and lock files
+*.gpkg-shm
+*.gpkg-wal
+*.aux.xml
