@@ -33,17 +33,17 @@ All other spatial constraints are treated as **soft penalties** and are accumula
 | Constraint Layer                         | Description                                 | Weight (`wᵢ`) |
 |------------------------------------------|---------------------------------------------|---------------|
 | `telecom_cables_exclusion_zone_2WD`      | Hard exclusion: 2× water depth buffer       | — *(veto)*    |
-| `telecom_cables_exclusion_zone_3WD`      | Caution zone: 3× water depth buffer         | 80            |
-| `rocky_outcrops_clipped_depth` (shallow) | Rocky seabed at depth < 1000 m              | 85            |
+| `telecom_cables_exclusion_zone_3WD`      | Caution zone: 3× water depth buffer         | 95            |
+| `rocky_outcrops_clipped_depth` (shallow) | Rocky seabed at depth < 1000 m              | 90            |
 | `rocky_outcrops_clipped_depth` (deep)    | Rocky seabed at depth ≥ 1000 m              | 60            |
-| `fishing_areas_clipped`                  | Trawling and protected fisheries            | 90            |
-| `military_areas_clipped`                 | Naval or military use zones                 | 90            |
-| `natura2000_clipped`                     | Natura 2000 environmental protection areas  | 90            |
+| `fishing_areas_clipped`                  | Trawling and protected fisheries            | 80            |
+| `military_areas_clipped`                 | Naval or military use zones                 | 70            |
+| `natura2000_clipped`                     | Natura 2000 environmental protection areas  | 80            |
 | `wrecks_clipped`                         | Submerged shipwrecks or obstacles           | 90            |
 | `coralligenous_outcrops_clipped`         | Sensitive coral or biogenic reef areas      | 70            |
-| `fluid_emissions_clipped`                | Gas seeps, fluid discharge zones            | 60            |
-| `pockmarks_clipped`                      | Depressions from past fluid activity        | 50            |
-| `mud_mounts_clipped`                     | Mud volcanoes, unstable sediment mounds     | 50            |
+| `fluid_emissions_clipped`                | Gas seeps, fluid discharge zones            | 40            |
+| `pockmarks_clipped`                      | Depressions from past fluid activity        | 30            |
+| `mud_mounts_clipped`                     | Mud volcanoes, unstable sediment mounds     | 30            |
 
 ---
 
@@ -67,3 +67,14 @@ All other spatial constraints are treated as **soft penalties** and are accumula
 - **Supports route screening** with both binary (excluded/allowed) and gradient (risk level) logic.
 
 ---
+
+> **Disclaimer**:  
+> The exclusion weights (`wᵢ`) or scorign interpretation presented in this file are not meant to be normative or prescriptive.  
+> They have been defined specifically for this project as an illustrative framework, based on general routing considerations and example constraints.  
+>  
+> In real-world cable routing projects, these weights should be carefully reviewed and adjusted to reflect:
+> - Client-specific priorities
+> - Local environmental and operational conditions
+> - Technical feasibility and regulatory constraints  
+>  
+> Always align the weighting criteria with the project context and stakeholder requirements.
