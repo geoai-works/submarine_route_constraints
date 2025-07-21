@@ -140,7 +140,7 @@ All notebooks and methods are designed to be reused and adapted.
 If you're interested in using this scoring framework for a different region,  
 **we can help you adapt it to your own data, seabed conditions, and regulatory context.**
 
-> Contact: [Alejandra L. Cameselle](https://www.linkedin.com/in/alejandralcameselle/)
+> Contact: [Alejandra L. Cameselle](https://www.linkedin.com/in/alejandra-lago-cameselle/)
 
 ---
 
